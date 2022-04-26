@@ -969,13 +969,15 @@ a.brand:focus {
 }
 
 .review-carousel .owl-prev:before {
-  font-family: 'Linearicons';
-  content: "\e93b";
+  background-image: url(../images/leftArrow.png);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .review-carousel .owl-next:before {
-  font-family: 'Linearicons';
-  content: "\e93c";
+  background-image: url(../images/leftArrow.png);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .review-carousel .owl-prev:hover,
