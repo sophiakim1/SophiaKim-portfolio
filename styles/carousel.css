@@ -38,3 +38,13 @@
     opacity: 0;
     display: block;
 }
+
+.owl-prev,
+.owl-next {
+    display: inline-block;
+    font-size: 2.8rem;
+    line-height: 1;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
