@@ -147,32 +147,6 @@
       Ajax Forms
     -------------------------------------------------------------------------------*/
 
-
-
-    // if ($('.js-form').length) {
-    //     $('.js-form').each(function () {
-    //         $(this).validate({
-    //             errorClass: 'error wobble-error',
-    //             submitHandler: function (form) {
-    //                 $.ajax({
-    //                     type: "POST",
-    //                     url: "mail.php",
-    //                     data: $(form).serialize(),
-    //                     success: function () {
-    //                         $('#error').modal('hide');
-    //                         $('#success').modal('show');
-    //                     },
-
-    //                     error: function () {
-    //                         $('#success').modal('hide');
-    //                         $('#error').modal('show');
-    //                     }
-    //                 });
-    //             }
-    //         });
-    //     });
-    // }
-
     document
     .querySelector("form")
     .addEventListener("submit", handleSubmit);
@@ -189,10 +163,4 @@ const handleSubmit = (e) => {
         .then(() => console.log("Form successfully submitted"))
         .catch((error) => alert(error));
 };
-
-
-
-
-
-
 })(jQuery);
