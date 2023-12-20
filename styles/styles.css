@@ -443,6 +443,8 @@ a.brand:focus {
 
 .social-list {
   overflow: hidden;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 400;
 }
 
 .social-list a {
@@ -1216,8 +1218,6 @@ a.brand:focus {
   html {
     font-size: 13px;
   }
-
-
 
   .boxed {
     padding-left: 3rem;
