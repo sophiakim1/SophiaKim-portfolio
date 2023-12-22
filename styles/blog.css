@@ -181,18 +181,8 @@ a.brand:focus {
 
 .copy-bottom {
     display: none;
-    position: absolute;
     z-index: 10;
     left: 0;
-    bottom: 2.4rem;
-    color: #000;
-}
-
-.lang-bottom {
-    display: none;
-    position: absolute;
-    z-index: 10;
-    right: 0;
     bottom: 2.4rem;
     color: #000;
 }
@@ -273,6 +263,53 @@ a.brand:focus {
 #pp-nav span:hover,
 .pp-slidesNav span:hover {
     background: #f3ca2f;
+}
+
+/*-------------------------------------------------------------------------------
+    List styles
+-------------------------------------------------------------------------------*/
+
+ul {
+    margin: 1rem 0;
+    list-style: none;
+    padding: 14px 0;
+    background-color: rgb(36, 36, 36);
+    color: #fff;
+    border-radius: 8px;
+}
+
+li {
+    padding: 2rem;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 40px;
+    padding: 8rem 2rem 6.25rem 2rem;
+}
+
+img {
+    padding-bottom: 10px;
+    display: block;
+    max-width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 1.25rem;
+}
+
+a {
+    color: #fff;
+}
+
+a:hover,
+a:focus {
+    color: rgb(133, 132, 132)
 }
 
 /*-------------------------------------------------------------------------------
@@ -385,6 +422,20 @@ a.brand:focus {
         -webkit-flex: 0 0 33.3333%;
         -ms-flex: 0 0 33.3333%;
         flex: 0 0 33.3333%;
+    }
+}
+
+@media (min-width: 870px) {
+    section {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 110px;
+    }
+
+    ul {
+        max-width: 40%;
+        height: auto;
+        margin: 0;
     }
 }
 
