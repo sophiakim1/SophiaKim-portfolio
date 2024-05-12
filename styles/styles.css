@@ -821,11 +821,11 @@ a.brand:focus {
   font-weight: 300;
 }
 
-.service-list li a {
+.service-list li {
   margin-bottom: 0.7rem;
 }
 
-.service-list li a:hover {
+.service-list li:hover {
   color: #fff;
   text-decoration: none;
 }
