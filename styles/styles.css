@@ -821,11 +821,11 @@ a.brand:focus {
   font-weight: 300;
 }
 
-.service-list li {
+.service-list li a {
   margin-bottom: 0.7rem;
 }
 
-.service-list li:hover {
+.service-list li a:hover {
   color: #fff;
   text-decoration: none;
 }
@@ -856,6 +856,11 @@ a.brand:focus {
   font-weight: 600;
   line-height: 1.181;
   text-transform: uppercase;
+}
+
+#fun {
+  margin-top: 80px;
+  margin-left: -10px;
 }
 
 /*-------------------------------------------------------------------------------
