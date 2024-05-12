@@ -863,6 +863,15 @@ a.brand:focus {
   margin-left: -10px;
 }
 
+#techtank {
+  text-decoration: none;
+}
+
+#techtank:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
 /*-------------------------------------------------------------------------------
   Projects
 -------------------------------------------------------------------------------*/
